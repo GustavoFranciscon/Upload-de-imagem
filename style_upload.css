@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #800000;  
+}
+
+.up{
+    padding: 7px;
+    width: 450px;
+    height: 350px;
+    padding: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(240, 248, 255, 0.856);
+    border-radius: 5px;
+}
+
+.preview{
+    padding-top: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn{
+    font-size: 20px;
+}
+
+#file{
+    display: none;
+}
+
+#acao{
+    display: none;
+}
+
+.lbl-file{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 50px;
+    width: 175px;
+    position: absolute;
+    color: white;
+    background-color: rgb(78, 74, 74);
+    margin-left: 25px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.lbl-acao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 50px;
+    width: 175px;
+    position: absolute;
+    color: white;
+    background-color: rgb(78, 74, 74);
+    margin-left: 260px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+#imagem{
+    min-width: 45%;
+}
+
+.titulo{
+    padding-bottom: 7px;
+    cursor: default;
+    margin-top: 5%;
+    text-align: center;
+    color: white;    
+}
+
+.div-titulo{
+    margin: 0;
+    text-align: center;
+}
+
+.logo{
+    margin-left: 1%;
+}
+
