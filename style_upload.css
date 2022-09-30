@@ -5,7 +5,9 @@
 
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: #800000;  
+    background-image: url("background.jpg");
+    height: 100vh;
+    background-size: cover;
 }
 
 .up{
